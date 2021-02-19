@@ -1,0 +1,33 @@
+// 1. "Verified Graduate" has the same color as the person's name with 50% opacity
+// 2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background: $neutral-clr2;
+    font-family: $ff1;
+    font-weight: $fw1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attribution {
+    font-size: rem(13);
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    background-color: #fff;
+    padding: .25rem;
+
+    a {
+        color: hsl(228, 45%, 44%);
+    }
+  }
